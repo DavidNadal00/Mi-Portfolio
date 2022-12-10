@@ -1,0 +1,849 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contenedor-section{
+    width: 100%;
+    height: 629px;
+    overflow: hidden;
+}
+/* header*/
+.nav-list{
+    display: none;
+}
+/*
+INICIO
+*/
+.row-top{
+    background-image: url("../img/fondo.png");
+    width: auto;
+    height: 314.5px;
+}
+.row-end{
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    background: linear-gradient(90deg, #7474BF 0%, #348AC7 100%);
+    width: auto;
+    height: 314.5px;
+}
+.title-name{
+    position: absolute;
+    width: auto;
+    left: 320px;
+    top: 351px;
+    font-size: 60px;
+    color:white;
+    display: flex;
+}
+.sub-title{
+    position: absolute;
+    width: auto;
+    left: 320px;
+    top: 440px; 
+    font-size: 35px;
+    display: flex;
+    color: #FFFFFF;
+}
+.img-perfil{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 80px;
+    top: 215px;
+}
+.nav-block{
+    display: flex;
+    margin-bottom: 10px;
+}
+.nav-floating{
+    display: grid;
+    width: 100px;
+    height: 40px;
+    margin: 20px 5px 20px 5px;
+    text-align: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    text-decoration: none;
+    color: white;
+    size: 20px;
+}
+/*
+SECCION SOBREMI
+*/
+.aboutme-title, .aboutme-skill{
+    text-align: center;
+    font-size: 45px;
+    color: #777;
+}
+.aboutme-title{
+    margin-top: 65px;
+    margin-bottom: 40px;
+}
+.aboutme-skill{
+    margin-block: 40px;
+}
+
+.aboutme-text{
+    text-align: justify;
+    max-width: 940px;
+    color: #777;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.aboutme, .contacto{
+    background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
+    width: 100%;
+    height: 629px;
+}
+.contenedor-btn{
+    display: flex;
+    margin-block: 40px;
+    justify-content: center;
+}
+.contenedor-btn-pr{
+    display: flex;
+    margin-block: 30px;
+    justify-content: center;
+}
+.button-mas{
+    display: grid;
+    width: 120px;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    background: #5900CD;
+    border-radius: 5px;
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+a.button-mas:hover{
+    transform: scale(0.95);
+}
+.contenedor-skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin-inline: 340px;
+}
+.skill-elemento{
+    width: 80px;
+    height: 80px;
+}
+/*
+SECCION CONTACTO
+*/
+.contenedor-formulario{
+    width: 800px;
+    height: 500px;
+    background: linear-gradient(90deg, #485563 0%, #29323C 100%);
+    border-radius: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-block: 60px;
+    
+}
+.formulario{
+    margin-inline: 100px;
+    padding-block: 30px ;
+}
+
+.form-title{
+    text-align: center;
+    color: white;
+    padding-block:5px;
+    font-size: 30px;
+    
+}
+.form-input{
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 5px;
+}
+.form-label{
+    color: white;
+    padding-bottom: 5px;
+}
+.input-text{
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    resize: none;
+}
+.enviar{
+    background: linear-gradient(90deg, #485563 0%, #29323C 100%);
+    border-color: rgb(0, 36, 243);
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    width: 100%;
+    margin-block: 20px;
+}
+/*
+FOOTER
+*/
+footer{
+    height: 120px;
+    width: auto;
+    background: #1A1B1E;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+.network{
+    color: white;
+}
+
+
+/* 
+CARROUSEL
+*/
+.slider-contenedor{
+    display: flex;
+}
+.contenido-slider{
+    width: 100%;
+    height: 520px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-shrink: 0;
+    background: #f1f1f1;
+}
+
+.contenido-slider:nth-child(2){
+    background: #332863;
+    color: #fff;
+}
+
+.contenido-slider:nth-child(3){
+    background: #611a68;
+    color: white;
+}
+
+.contenido-slider > img{
+    width: 400px;
+    border-radius: 10px;
+}
+
+.contenido-slider > div{
+    width: 40%;
+}
+
+.contenido-slider h2{
+    font-weight: 300;
+    text-align: justify;
+    line-height: 30px;
+}
+
+.contenido-slider a{
+    color: #fff;
+    background: #5900CD;
+    width: 100px;
+    display: block;
+    padding: 15px 0;
+    text-align: center;
+    border-radius: 3px;
+    margin-top: 20px;
+    text-decoration: none;
+}
+
+.contenido-slider:nth-child(2) a{
+    background: #fff;
+    color: #332863;
+    
+}
+
+@media screen and (max-width:900px){
+    .contenido-slider > img{
+        width: 250px;
+    }
+
+    .contenido-slider > div{
+        width: 40%;
+    }
+
+    .contenido-slider h2{
+        font-size: 23px;
+    }
+}
+
+
+@media screen and (max-width:600px){
+
+}
+/*
+############
+PROJECT.html
+############
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    height: 86px;
+    width: auto;
+    background: white;
+    border-bottom: 1px solid #b9b9b9;
+}
+.nav-group{
+    display: flex;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.nav-link{
+    display: grid;
+    width: 100px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    background: #5900CD;
+    margin-inline: 5px;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+.nav-title{
+    margin-left: 5%;
+    font-style: normal;
+    font-size: 36px;
+    color: #777777;
+}
+.contenedor-project{
+    background: #4f5e6d;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    max-width: 940px;
+    padding: 16px;
+    position: relative;
+    border-radius: 5px;
+}
+.elemento-project{
+    display: flex;
+    background: white;
+    height: 100px;
+    margin-bottom: 5px;
+}
+.img-project{
+    border-right:1px solid #777;
+    width: 220px;
+    height: 100px;
+}
+.title-project{
+    font-style: normal;
+    font-size: 20px;
+}
+.platform{
+    display: flex;
+    align-items: center;
+    color: #777;
+}
+.title-project, .datetime-project , .platform-text{
+    padding-left: 10px;
+    padding-block: 6px;
+    color: #777;
+    font-family: tahoma;
+}
+.elemento-btn{
+    margin-left: auto;
+    margin-right: 25px;
+    width: auto;
+    display: grid;
+    align-items: center;
+}
+.button-ver{
+    display: grid;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    background: #5900CD;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 15px;
+}
+.button-mm{
+    border: none;
+    line-height: 32px;
+    color: #dfe3e6;
+    text-align: center;
+    border-radius: 2px;
+    cursor: pointer;
+    min-width: 40%;
+    white-space: nowrap;
+    padding: 0 10px;
+    background-color: rgba(255,255,255,.2);
+}
+.div-button-mm{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+/*
+#######################################
+VIEW-PROJECT.HTML
+#######################################
+*/
+
+.container .img_container {
+    width: 850px;
+    height: 400px;
+    margin-bottom: 20px;    
+}
+.container{
+    justify-content: center;
+    display: grid;
+    margin: 25px 0;
+}
+.container .img_container .main_img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
+
+.container .thumbnail_container {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+}
+.container .thumbnail_container .thumbnail {
+    width: 80px;
+    height: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+    opacity: .7;
+    transition: .3s;
+    margin: 0 5px;
+}
+
+.container .thumbnail_container .thumbnail:hover {
+    opacity: 1;
+}
+
+.active {
+    opacity:  1 !important;
+    box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
+}
+.text-margin{
+    margin-block: 10px;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text-titulo{
+    font-size: 50px;
+}
+.text-fecha{
+    margin-top: 40px;
+    font-size: 20px;
+    color: #777;
+}
+.text-subtitulo{
+    font-size: 26px;
+}
+.text-p {
+    color: #777;
+    text-align: justify;
+}
+.contenedor-resolucion{
+    display: flex;
+    max-width: 840px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #777;
+}
+.btn-git{
+    display: grid;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    align-items: center;
+    background: #5900CD;
+    text-decoration: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+}
+
+
+@media screen and (width: 390px){
+    /*
+    HEADER
+    */
+    .nav-group{
+        display: none;
+    }
+    .nav-title{
+        font-size: 18px;
+    }
+
+    .contenedor-section{
+        height: 844px;
+    }
+    .row-top, .row-end{
+        height: 422px;
+    }
+    .img-perfil{
+        left: 95px;
+        top: 322px;
+    }
+    .nav-block{
+        margin-bottom: 80px;
+    }
+    .nav-list{
+        display: flex;
+        margin-left: auto;
+        margin-right: 20px;    
+    }
+    .btn-nav-list{
+        width: 40px;
+        height: 40px;
+        font-size: 32px;
+        color: white;
+        background: #5900CD;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    .btn-nav-list:hover{
+        color: #5900CD;
+        background: white;
+        border: 1px solid #5900CD;;
+    }
+    .btn-nav-list:active{
+        position:relative;
+	    top:1px;
+    }
+    /*
+    ############
+    VIEW PROJECT
+    ############
+    */
+    .container .img_container {
+        max-width: 360px;
+        height: 200px;
+    }
+    .container .thumbnail_container .thumbnail {
+        width: 40px;
+        height: 40px;
+    }
+    .text-margin{
+        max-width:360px;
+    }
+    .contenedor-resolucion{
+        max-width: 360px;  
+    }
+
+
+/*
+##################
+    INDEX.html    
+##################
+*/
+/*
+SECCION INICIO
+*/
+    .title-name{
+        left: 20px;
+        top: 557px;
+        font-size: 26px;
+    }
+    .sub-title{
+        left: 112px;
+        top: 605px;
+        font-size: 20px;
+    }
+    .aboutme-text {
+        max-width: 280px;
+    }
+    /*section project*/
+    .contenedor-skill{
+        margin-inline: auto;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+    .skill-elemento{
+        width: 40px;
+        height: 40px;
+    }
+    .contenido-slider{
+        flex-direction: column-reverse;
+        height: 734px;
+        align-items: center;
+     }
+ 
+     .contenido-slider > div{
+         width: 80%;
+     }
+    .contenedor-btn{
+        margin-block: 27px;
+    }
+    .slider-btn{
+        display: flex;
+        justify-content: center;
+    }
+    /*
+    SECCION CONTACTO
+    */
+    .contenedor-formulario{
+        width: 320px;
+        height: 580px;
+        margin-block: 132px;
+        
+    }
+    .formulario{
+        margin-inline:40px;
+    }
+    .form-title{
+        padding-block: 40px;
+        font-size: 40px;
+    }
+    .enviar{
+        margin-block:40px;
+    }
+    /*
+    ############
+    PROJECT.HTML
+    ############
+    */
+    .contenedor-project{
+        max-width: 360px;
+    }
+    .elemento-project{
+        height: 105px;
+    }
+    .img-project{
+        width: 100px;
+        height: 105px;
+    }
+    .title-project, .datetime-project, .platform{
+        padding-block: 9.5px;
+        font-size: 10px;
+    }
+    .elemento-btn{
+        margin-right: 10px;
+    }
+    .button-ver{
+        width: 70px;
+        height: 25px;
+        font-size: 8px;
+    }
+}
+/*
+#################
+#################
+RESPONSIVE TABLET
+#################
+#################
+*/
+@media screen and (width:820px){
+    .nav-title{
+        font-size: 32px;
+    }
+    .nav-group{
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        margin-left: auto;
+        margin-right: 20px;    
+    }
+    .btn-nav-list{
+        width: 40px;
+        height: 40px;
+        font-size: 32px;
+        color: white;
+        background: #5900CD;
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: none;
+    }
+    .btn-nav-list:hover{
+        color: #5900CD;
+        background: white;
+        border: 1px solid #5900CD;;
+    }
+    .btn-nav-list:active{
+        position:relative;
+	    top:1px;
+    }
+    /*
+    INDEX.HTML
+    */
+    .contenedor-section{
+        height: 1180px;
+    }
+    .row-top{
+        height: 590px;
+    }
+    .row-end{
+        height: 590px;
+    }
+    .img-perfil{
+        width: 250px;
+        height: 250px;
+        left: 285px;
+        top: 465px;
+    }
+    .title-name{
+        width: 750px;
+        left: 35px;
+        top: 775px;
+        font-size: 55px;
+    }
+    .sub-title{
+        width: 310px;
+        left: 255px;
+        top: 885px;
+    }
+    .nav-block{
+        margin-bottom: 50px;
+    }
+    .nav-floating{
+        width: 180px;
+        height: 60px;
+        font-size: 24px;
+    }
+    /*
+    SECCION ABOUTME
+    */
+    .aboutme-title, .aboutme-skill{
+        font-size: 64px;
+    }
+    .aboutme-title{
+        margin-top: 125px;
+        margin-bottom: 100px;
+    }
+    .aboutme-skill{
+        margin-block: 80px ;
+    }
+    .aboutme-text{
+        width: 680px;
+        font-size: 24px;
+    }
+    .contenedor-skill{
+        margin-block: 50px;
+    }
+    .skill-elemento{
+        width: 100px;
+        height: 100px;
+    }
+    .contenedor-btn{
+        margin-block: 80px;
+    }
+    /*
+    SECCION PROJECT
+    */
+    .contenido-slider{
+        flex-direction: column-reverse;
+        height: 960px;
+        align-items: center;
+    }
+    .contenido-slider > div{
+         width: 80%;
+    }
+    .contenido-slider > img{
+        width: 600px;
+    }
+    .slider-btn{
+        display: flex;
+        justify-content: center;
+    }
+    .contenedor-btn-pr{
+        margin-block: 75px;
+    }
+    .button-mas{
+        height: 80px;
+        width: 180px;
+        font-size: 24px;
+    }
+    .contenedor-formulario{
+        width: 700px;
+        height: 940px;
+        margin-block: 125px;
+    }
+    .form-title{
+        font-size: 64px;
+        margin-block: 30px;
+    }
+    .form-label{
+        font-size: 32px;
+    }
+    .form-input{
+        font-size: 26px;
+        height: 60px;
+    }
+    .input-text{
+        height: 200px;
+        font-size: 26px;
+    }
+    .enviar{
+        height: 80px;
+        font-size: 32px;
+        margin-block: 30px;
+    }
+    /*
+    ############
+    PROJECT.HTML
+    ############
+    */
+    .contenedor-project{
+        width: 750px;
+        margin-block: 105px;
+    }
+    /*
+    ################
+    VIEWPROJECT.HTML
+    ################
+    */
+    .text-margin{
+        width: 680px;
+    }
+    .container .img_container{
+        width: 680px;
+    }
+    .contenedor-resolucion{
+        width: 680px;
+    }
+    /*
+    ######
+    FOOTER
+    ######
+    */
+    footer{
+        height: 180px;
+        font-size: 30px;
+    }
+}
