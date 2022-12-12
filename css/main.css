@@ -87,6 +87,7 @@ SECCION SOBREMI
 .aboutme-skill{
     margin-block: 40px;
 }
+
 .aboutme-text{
     text-align: justify;
     max-width: 940px;
@@ -94,6 +95,7 @@ SECCION SOBREMI
     margin-right: auto;
     margin-left: auto;
 }
+
 .aboutme, .contacto{
     background: linear-gradient(90deg, #E0EAFC 0%, #CFDEF3 100%);
     width: 100%;
@@ -148,16 +150,19 @@ SECCION CONTACTO
     margin-left: auto;
     margin-right: auto;
     margin-block: 60px;
+    
 }
 .formulario{
     margin-inline: 100px;
     padding-block: 30px ;
 }
+
 .form-title{
     text-align: center;
     color: white;
     padding-block:5px;
     font-size: 30px;
+    
 }
 .form-input{
     width: 100%;
@@ -204,6 +209,8 @@ footer{
 .network{
     color: white;
 }
+
+
 /* 
 CARROUSEL
 */
@@ -219,26 +226,32 @@ CARROUSEL
     flex-shrink: 0;
     background: #f1f1f1;
 }
+
 .contenido-slider:nth-child(2){
     background: #332863;
     color: #fff;
 }
+
 .contenido-slider:nth-child(3){
     background: #611a68;
     color: white;
 }
+
 .contenido-slider > img{
     width: 400px;
     border-radius: 10px;
 }
+
 .contenido-slider > div{
     width: 40%;
 }
+
 .contenido-slider h2{
     font-weight: 300;
     text-align: justify;
     line-height: 30px;
 }
+
 .contenido-slider a{
     color: #fff;
     background: #5900CD;
@@ -250,11 +263,13 @@ CARROUSEL
     margin-top: 20px;
     text-decoration: none;
 }
+
 .contenido-slider:nth-child(2) a{
     background: #fff;
     color: #332863;
     
 }
+
 @media screen and (max-width:900px){
     .contenido-slider > img{
         width: 250px;
@@ -267,6 +282,11 @@ CARROUSEL
     .contenido-slider h2{
         font-size: 23px;
     }
+}
+
+
+@media screen and (max-width:600px){
+
 }
 /*
 ############
@@ -384,11 +404,13 @@ header{
     justify-content: center;
     margin-top: 14px;
 }
+
 /*
 #######################################
 VIEW-PROJECT.HTML
 #######################################
 */
+
 .container .img_container {
     width: 850px;
     height: 400px;
@@ -405,6 +427,7 @@ VIEW-PROJECT.HTML
     border-radius: 5px;
     box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
 }
+
 .container .thumbnail_container {
     height: 80px;
     display: flex;
@@ -420,9 +443,11 @@ VIEW-PROJECT.HTML
     transition: .3s;
     margin: 0 5px;
 }
+
 .container .thumbnail_container .thumbnail:hover {
     opacity: 1;
 }
+
 .active {
     opacity:  1 !important;
     box-shadow: 0 5px 5px rgba(1, 23, 46, 0.6);
@@ -467,6 +492,8 @@ VIEW-PROJECT.HTML
     color: white;
     font-size: 16px;
 }
+
+
 @media screen and (width: 390px){
     /*
     HEADER
@@ -531,26 +558,28 @@ VIEW-PROJECT.HTML
         height: 40px;
     }
     .text-margin{
-        max-width:340px;
+        max-width:360px;
     }
     .contenedor-resolucion{
-        max-width: 340px;  
+        max-width: 360px;  
     }
-    /*
-    ##################
+
+
+/*
+##################
     INDEX.html    
-    ##################
-    */
-    /*
-    SECCION INICIO
-    */
+##################
+*/
+/*
+SECCION INICIO
+*/
     .title-name{
-        left: 10px;
+        left: 20px;
         top: 557px;
         font-size: 26px;
     }
     .sub-title{
-        left: 98.5px;
+        left: 112px;
         top: 605px;
         font-size: 20px;
     }
@@ -571,10 +600,11 @@ VIEW-PROJECT.HTML
         flex-direction: column-reverse;
         height: 734px;
         align-items: center;
-    }
-    .contenido-slider > div{
+     }
+ 
+     .contenido-slider > div{
          width: 80%;
-    }
+     }
     .contenedor-btn{
         margin-block: 27px;
     }
