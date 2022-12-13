@@ -14,7 +14,7 @@
     display: none;
 }
 /*
-INICIO
+INICIOooo
 */
 .row-top{
     background-image: url("../img/fondo.png");
@@ -492,7 +492,13 @@ VIEW-PROJECT.HTML
     color: white;
     font-size: 16px;
 }
-
+/*
+##################
+##################
+RESPONSIVE CELULAR
+##################
+##################
+*/
 
 @media screen and (width: 390px){
     /*
@@ -563,8 +569,6 @@ VIEW-PROJECT.HTML
     .contenedor-resolucion{
         max-width: 360px;  
     }
-
-
 /*
 ##################
     INDEX.html    
